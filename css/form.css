@@ -1,0 +1,41 @@
+body {
+    background-color: #557a95;;
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    line-height: 2;
+    font-weight: bold;
+    height: 100%;
+}
+
+.h1 {
+    margin: 50px auto;
+    color: #d3e0ea;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+}
+
+.h1:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #d3e0ea;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.h1:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #d3e0ea;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
